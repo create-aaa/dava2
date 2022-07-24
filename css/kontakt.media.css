@@ -1,0 +1,220 @@
+@media (max-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+    .index_main{
+        max-width: 100%;
+    }
+}
+@media(max-width: 1175px){
+    .header__social{
+        padding: 30px 0px 0px 0px;
+        margin: 0px 0px 0px -130px;
+    }
+}
+@media(max-width: 1080px){
+    .header__social{
+        display: none;
+    }
+    .pay_system_img{
+        max-width: 100%;
+    }
+    .social_kontakt{
+        max-width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width: 975px) {
+    .index_main{
+        top: 100px;
+        height: 0px;
+    }
+}
+@media(max-width: 947px){
+    .index_main{
+        height: 0px;
+    }
+    .text_hello1{
+        height: 0px;
+        margin-left: -100px;
+    }
+    br{
+        display: none;
+    }
+}
+@media (max-width: 885px) {
+    .index_main{
+        height: 0px;
+        margin-top: -5px;
+    }
+    .logo{
+        margin: 0px 0px 0px -150px;
+    }
+    .game_text{
+        margin: 0px 0px 0px -80px;
+    }
+    .button_mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .list{
+        list-style: none;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        margin: 0px 0px;
+        align-items: center;
+    }
+    .list__item{
+        list-style: none;
+        padding: 30px 0px 0px 0px;
+        display: flex;
+        margin: 0px 0px;
+    }
+    .header__list{
+        position: absolute;
+        width: 100vw;
+        background: lightslategrey;
+        left: -100%;
+        flex-direction: column;
+        height: 228%;
+        top: 100px;
+        transition: left 1s;
+        z-index: 100;
+    }
+    .header__list.active {
+        left: 0;
+        color: gold;
+    }
+    .line_mobile{
+        display: block;
+    }
+    .adaptive_button{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .lang{
+        display: none;
+    }
+    .kontakt_mobile{
+        display: flex;
+    }
+    .text_hello1{
+        margin-left: 20px;
+    }
+    .text_hello2{
+        margin-left: 20px;
+    }
+    .text_hello3{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .text_hello4{
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    .deal{
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+    .container{
+        max-width: 576px;
+    }
+    .index_text1{
+        top: 40px;
+    }
+    .index_text2{
+        top: 220px;
+    }
+    @media (max-width: 699px) {
+        .header__list{
+            height: 212%;
+        }
+        .index_text3 {
+            display: none;
+        }
+        .index_text3{
+            top: 250px;
+            display: block;
+        }
+        .index_text3{
+            display: none;
+        }
+        .text_hello{
+            font-size: 20px;
+        }
+        .text_hello1{
+            font-size: 11px;
+            margin-top: 50px;
+        }
+        .text_hello2{
+            font-size: 11px;
+            margin-top: -30px;
+        }
+        .text_hello3{
+            font-size: 11px;
+            margin-top: -50px;
+        }
+        .text_hello4{
+            font-size: 11px;
+            margin-top: -60px;
+        }
+        .text_kontakt{
+            font-size: 18px;
+        }
+    }
+    @media (max-width: 576px) {
+        .index_text2 {
+            display: none;
+        }
+        .text_kontakt{
+            font-size: 15px;
+        }
+    }
+
+    @media(max-width: 450px){
+        .text_hello4{
+            margin-top: -10px;
+        }
+        .text_hello3{
+            margin-top: -20px;
+        }
+    }
+    @media (max-width: 360px) {
+        .game_text{
+            display: none;
+        }
+        .header__list{
+            height: 175%;
+        }
+        .text_hello{
+            margin-top: -25px;
+        }
+        .text_hello1{
+            margin-top: 50px;
+        }.text_hello2{
+             margin-top: -30px;
+         }
+        .text_hello3{
+            margin-top: -15px;
+        }
+        .text_hello4{
+            margin-top: 20px;
+        }
+        .social_kontakt{
+            column-gap: 10px;
+            margin-top: -50px;
+        }
+    }
+}
+@media (max-width: 295px) {
+    .text_hello3{
+        margin-top: -5px;
+    }
+}

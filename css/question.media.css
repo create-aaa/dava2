@@ -1,0 +1,504 @@
+@media (max-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+    .index_main{
+        max-width: 100%;
+    }
+}
+@media(max-width: 1175px){
+    .header__social{
+        padding: 30px 0px 0px 0px;
+        margin: 0px 0px 0px -130px;
+    }
+}
+@media(max-width: 1080px){
+    .header__social{
+        display: none;
+    }
+    .pay_system_img{
+        max-width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width: 975px) {
+    .index_main{
+        top: 100px;
+        height: 0px;
+    }
+}
+@media(max-width: 947px){
+    .index_main{
+        height: 0px;
+    }
+    .text_hello1{
+        height: 0px;
+        margin-top: -30px;
+    }
+    .text_hello2{
+        margin-top: -35px;
+    }
+    .text_hello3{
+        margin-top: -20px;
+    }
+    .text_hello4{
+        margin-top: -25px;
+    }
+    .text_hello5{
+        margin-top: -5px;
+    }
+    br{
+        display: none;
+    }
+}
+@media (max-width: 885px) {
+    .index_main{
+        height: 0px;
+        margin-top: -5px;
+    }
+    .logo{
+        margin: 0px 0px 0px -150px;
+    }
+    .game_text{
+        margin: 0px 0px 0px -80px;
+    }
+    .button_mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .list{
+        list-style: none;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        margin: 0px 0px;
+        align-items: center;
+    }
+    .list__item{
+        list-style: none;
+        padding: 30px 0px 0px 0px;
+        display: flex;
+        margin: 0px 0px;
+    }
+    .header__list{
+        position: absolute;
+        width: 100vw;
+        background: lightslategrey;
+        left: -100%;
+        flex-direction: column;
+        height: 248%;
+        top: 100px;
+        transition: left 1s;
+        z-index: 100;
+    }
+    .header__list.active {
+        left: 0;
+        color: gold;
+    }
+    .line_mobile{
+        display: block;
+    }
+    .adaptive_button{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .lang{
+        display: none;
+    }
+    .kontakt_mobile{
+        display: flex;
+    }
+    .text_hello{
+        margin-top: -10px;
+        margin-left: 20px;
+
+    }
+    .text_hello1{
+        margin-left: -10px;
+    }
+    .text_hello2{
+        margin-left: -10px;
+    }
+    .text_hello3{
+        margin-left: -10px;
+    }
+    .text_hello4{
+        margin-left: -10px;
+        margin-top: -25px;
+    }
+    .text_hello5{
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .text_hello6{
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .text_hello7{
+        margin-left: -10px;
+        margin-top: 35px;
+    }
+    .text_hello8{
+        margin-left: -10px;
+        margin-top: 40px;
+    }
+    .button_mobile_free{
+        margin-top: 240px;
+    }
+    .button_mobile_america{
+        margin-top: 240px;
+    }
+    .button_mobile_ru{
+        margin-top: 240px;
+    }
+    .text_hello9{
+        margin-left: -10px;
+        margin-top: 60px;
+    }
+    .text_hello10{
+        margin-left: -10px;
+        margin-top: 70px;
+    }
+    @media (max-width: 767px) {
+        .container{
+            max-width: 576px;
+        }
+        .index_text1{
+            top: 40px;
+        }
+        .index_text2{
+            top: 220px;
+        }
+        .text_hello1{
+            height: 0px;
+            margin-top: 90px;
+        }
+        .text_hello2{
+            margin-top: 85px;
+        }
+        .text_hello3{
+            margin-top: -25px;
+        }
+        .text_hello4{
+            margin-top: -30px;
+        }
+        .text_hello5{
+            margin-top: 15px;
+        }
+    }
+    .menu_6{
+        display: none;
+    }
+    /*.text_hello3{*/
+    /*    margin-top: 30px;*/
+    /*    margin-left: 20px;*/
+    /*}*/
+    /*.text_hello4{*/
+    /*    margin-top: 60px;*/
+    /*    margin-left: 20px;*/
+
+    /*}*/
+    .deal{
+        display: block;
+    }
+}
+@media (max-width: 750px) {
+    .text_hello4{
+        margin-top: -5px;
+    }
+    .text_hello5{
+        margin-top: 30px;
+    }
+    .text_hello6{
+        margin-top: 30px;
+    }
+    .text_hello7{
+        margin-top: 50px;
+    }
+    .text_hello8{
+        margin-top: 60px;
+    }
+    .text_hello9{
+        margin-top: 70px;
+    }
+}
+@media (max-width: 699px) {
+    .header__list{
+        height: 230%;
+    }
+    .index_text3 {
+        display: none;
+    }
+    .index_text3{
+        top: 250px;
+        display: block;
+    }
+    .text_hello{
+        font-size: 13px;
+    }
+    .text_hello1{
+        font-size: 10px;
+        margin-top: 70px;
+    }
+    .text_hello2{
+        font-size: 10px;
+        margin-top: 55px;
+    }
+    .text_hello3{
+        font-size: 10px;
+        margin-top: -100px;
+    }
+    .text_hello4{
+        font-size: 10px;
+        margin-top: -115px;
+    }
+    .text_hello5{
+        font-size: 10px;
+        margin-top: -130px;
+    }
+    .text_hello6{
+        font-size: 10px;
+        margin-top: -130px;
+    }
+    .text_hello7{
+        font-size: 10px;
+        margin-top: -155px;
+    }
+    .text_hello8{
+        font-size: 10px;
+        margin-top: -170px;
+    }
+    .button_mobile_free{
+        margin-top: 20px;
+    }
+    .button_mobile_america{
+        margin-top: 20px;
+    }
+    .button_mobile_ru{
+        margin-top: 20px;
+    }
+    .text_hello9{
+        font-size: 10px;
+        margin-top: -190px;
+    }
+    .text_hello10{
+        font-size: 10px;
+        margin-top: -200px;
+    }
+    @media (max-width: 650px) {
+        .text_hello5{
+            margin-top: -130px;
+        }
+    }
+    @media (max-width: 576px) {
+        /*    .index_text2 {*/
+        /*        display: none;*/
+        /*    }*/
+        /*}*/
+        /*.text_hello1{*/
+        /*    font-size: 11px;*/
+        /*    margin-top: 50px;*/
+        /*}*/
+        /*.text_hello2{*/
+        /*    font-size: 11px;*/
+        /*    margin-top: -30px;*/
+        /*}*/
+        /*.text_hello3{*/
+        /*    font-size: 11px;*/
+        /*    margin-top: -50px;*/
+        /*}*/
+        /*.text_hello4{*/
+        /*    font-size: 11px;*/
+        /*    margin-top: -60px;*/
+        /*}*/
+        .text_hello5{
+            margin-top: -120px;
+        }
+        .text_hello9{
+            margin-top: -170px;
+        }
+        .text_hello10{
+            margin-top: -180px;
+        }
+        .button_mobile_free{
+            margin-top: 100px;
+        }
+        .button_mobile_america{
+            margin-top: 100px;
+        }
+        .button_mobile_ru{
+            margin-top: 100px;
+        }
+    }
+    @media (max-width: 513px) {
+        .text_hello6{
+            margin-top: -110px;
+        }
+        .text_hello7{
+            margin-top: -130px;
+        }
+        .text_hello8{
+            margin-top: -140px;
+        }
+        .text_hello9{
+            margin-top: -150px;
+        }
+        .text_hello10{
+            margin-top: -160px;
+        }
+    }
+    @media(max-width: 509px){
+        /*.text_hello4{*/
+        /*    margin-top: -10px;*/
+        /*}*/
+        .text_hello3{
+            margin-top: -90px;
+        }
+        .text_hello4{
+            margin-top: -90px;
+        }
+        .text_hello5{
+            margin-top: -100px;
+        }
+        .button_mobile_free{
+            margin-top: 180px;
+        }
+        .button_mobile_america{
+            margin-top: 180px;
+        }
+        .button_mobile_ru{
+            margin-top: 180px;
+        }
+    }
+    @media (max-width: 460px) {
+        .text_hello5{
+            margin-top: -90px;
+        }
+        .text_hello7{
+            margin-top: -110px;
+        }
+        .text_hello8{
+            margin-top: -120px;
+        }
+        .text_hello9{
+            margin-top: -120px;
+        }
+        .text_hello10{
+            margin-top: -130px;
+        }
+    }
+    @media (max-width: 390px) {
+        .game_text{
+            display: none;
+        }
+        .header__list{
+            height: 208%;
+        }
+        .text_hello{
+            margin-top: -20px;
+        }
+        .text_hello1{
+            margin-left: -5px;
+            margin-top: 55px;
+        }
+        .text_hello2{
+            margin-top: 40px;
+            margin-left: -5px;
+        }
+        .text_hello3{
+            margin-left: -5px;
+        }
+        .text_hello4{
+            margin-left: -5px;
+            margin-top: -90px;
+        }
+        .text_hello5{
+            margin-left: -5px;
+            margin-top: -70px;
+        }
+        .text_hello6{
+            margin-left: -5px;
+            margin-top: -80px;
+        }
+        .text_hello7{
+            margin-left: -5px;
+            margin-top: -70px;
+        }
+        .text_hello8{
+            margin-left: -5px;
+            margin-top: -80px;
+        }
+        .button_mobile_free{
+            margin-top: 300px;
+        }
+        .button_mobile_america{
+            margin-top: 300px;
+        }
+        .button_mobile_ru{
+            margin-top: 300px;
+        }
+        .text_hello9{
+            margin-top: -80px;
+            margin-left: -5px;
+        }
+        .text_hello10{
+            margin-left: -5px;
+            margin-top: -80px;
+        }
+    }
+}
+/*    .text_hello1{*/
+/*        margin-top: 50px;*/
+/*    }.text_hello2{*/
+/*         margin-top: -30px;*/
+/*     }*/
+/*    .text_hello3{*/
+/*        margin-top: -15px;*/
+/*    }*/
+/*    .text_hello4{*/
+/*        margin-top: 20px;*/
+/*    }*/
+/*}*/
+@media (max-width: 320px) {
+    .text_hello2{
+        margin-top: 50px;
+    }
+    .text_hello3{
+        margin-top: -70px;
+    }
+    .text_hello4{
+        margin-top: -70px;
+    }
+    .text_hello5{
+        margin-top: -45px;
+    }
+    .text_hello6{
+        margin-top: -60px;
+    }
+    .text_hello7{
+        margin-top: -30px;
+    }
+    .text_hello8{
+        margin-top: -35px;
+    }
+    .text_hello9{
+        margin-top: -30px;
+    }
+    .text_hello10{
+        margin-top: -30px;
+    }
+    .button_mobile_free{
+        margin-top: 400px;
+    }
+    .button_mobile_america{
+        margin-top: 400px;
+    }
+    .button_mobile_ru{
+        margin-top: 400px;
+    }
+}

@@ -1,0 +1,255 @@
+
+@media (max-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+    .index_main{
+        max-width: 100%;
+    }
+}
+@media(max-width: 1175px){
+    .header__social{
+        padding: 30px 0px 0px 0px;
+        margin: 0px 0px 0px -130px;
+    }
+}
+@media (max-width: 1118px){
+    .header__social{
+        display: none;
+    }
+}
+@media(max-width: 1080px){
+    .pay_system_img{
+        max-width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width: 992px) {
+
+    .index_text1{
+        top: 100px;
+    }
+    .index_text2{
+        top: 200px;
+    }
+    .index_text3{
+        top: 300px;
+    }
+}
+@media (max-width: 767px) {
+    .container{
+        max-width: 576px;
+    }
+    .text_hello{
+        font-size: 25px;
+    }
+    .index_text1{
+        top: 90px;
+        font-size: 13px;
+    }
+    .index_text2{
+        top: 160px;
+        font-size: 13px;
+    }
+    .index_text3{
+        font-size: 13px;
+        top: 230px;
+    }
+    .index_text4{
+        font-size: 13px;
+        top: 270px;
+    }
+    .index_text5{
+        font-size: 13px;
+        top: 330px;
+    }
+}
+@media (max-width: 885px) {
+    .index_main{
+        top: 60px;
+        height: 0px;
+        margin: 0px auto;
+    }
+    .logo{
+        margin: 0px 0px 0px -150px;
+    }
+    .game_text{
+        margin: 0px 0px 0px -80px;
+    }
+    .button_mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .list{
+        list-style: none;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        margin: 0px 0px;
+        align-items: center;
+    }
+    .list__item{
+        list-style: none;
+        padding: 30px 0px 0px 0px;
+        display: flex;
+        margin: 0px 0px;
+    }
+    .header__list{
+        position: absolute;
+        width: 100vw;
+        background: lightslategrey;
+        left: -100%;
+        flex-direction: column;
+        height: 228%;
+        top: 100px;
+        transition: left 1s;
+        z-index: 100;
+    }
+    .header__list.active {
+        left: 0;
+        color: gold;
+    }
+    .line_mobile{
+        display: block;
+    }
+    .adaptive_button{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .lang{
+        display: none;
+    }
+    .kontakt_mobile{
+        display: flex;
+    }
+    .text_hello{
+        margin-top: 50px;
+    }
+    /*.menu_6{*/
+    /*    .menu_4*/
+    /*}*/
+}
+@media (max-width: 699px) {
+    .header__list{
+        height: 200%;
+    }
+    .index_text2{
+        top: 170px;
+    }
+    .index_text3{
+        top: 240px;
+    }
+}
+@media (max-width: 550px) {
+    .index_text2 {
+        top: 180px;
+    }
+    .button_mobile_free{
+        margin-top: 150px;
+    }
+    .button_mobile_ru{
+        margin-top: 150px;
+    }
+    .button_mobile_america{
+        margin-top: 150px;
+    }
+    .index_text3{
+        top: 270px;
+    }
+    .index_text4{
+        top: 330px;
+    }
+    .index_text5{
+        top: 400px;
+    }
+}
+@media (max-width: 480px){
+    .index_text2{
+        margin-top: 5px;
+    }
+}
+@media (max-width: 425px) {
+    .index_text2{
+        margin-top: 20px;
+    }
+    .index_text3{
+        margin-top: 25px;
+    }
+    .index_text4{
+        margin-top: 30px;
+    }
+    .index_text5{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 380px) {
+    .game_text{
+        display: none;
+    }
+    .header__list{
+        height: 176%;
+    }
+    .index_text1{
+        font-size: 12px;
+    }
+    .index_text2{
+        font-size: 12px;
+    }
+    .index_text3{
+        margin-top: 40px;
+    }
+    .button_mobile_free{
+        margin-top: 180px;
+    }
+    .button_mobile_ru{
+        margin-top: 180px;
+    }
+    .button_mobile_america{
+        margin-top: 180px;
+    }
+}
+@media (max-width: 340px){
+    .text_hello{
+        display: none;
+    }
+    .index_text1{
+        top: 40px;
+    }
+    .index_text2{
+        top: 140px;
+    }
+    .index_text3{
+        top: 240px;
+    }
+    .index_text4{
+        top: 300px;
+    }
+    .button_mobile_free{
+        margin-top: 250px;
+    }
+    .button_mobile_ru{
+        margin-top: 250px;
+    }
+    .button_mobile_america{
+        margin-top: 250px;
+    }
+}
+@media (max-width: 300px){
+    .index_text2{
+        top: 160px;
+    }
+    .index_text3{
+        top: 260px;
+    }
+    .index_text4{
+        top: 330px;
+    }
+    .index_text5{
+        top: 420px;
+    }
+}
